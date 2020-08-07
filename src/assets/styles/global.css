@@ -47,7 +47,7 @@ body,
 input,
 button,
 textarea {
-  font: 500 1.6rem "Ubuntu", sans-serif;
+  font: 500 1.6rem Ubuntu;
 }
 
 .container {
