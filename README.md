@@ -1,12 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Create project web
+
+`yarn create react-app web --template typescript`
+
+# Funcionalidades (casos do uso)
+
+## Conexões
+
+- Rota para listar o total de conexões realizadas;
+- Rota para criar uma nova conexão;
+
+## Aulas
+
+- Rota de crialção de uma aula;
+- Rota para listar aulas;
+  --Filtrar por matéria, dia da semana e horário
+
 ## Available Scripts
 
 In the project directory, you can run:
-
-## Create project web
-
-`yarn create react-app web --template typescript`
 
 ### `yarn start`
 

@@ -1,0 +1,227 @@
+{
+	"info": {
+		"_postman_id": "dbd9ec46-7192-4ccc-ba9b-329250d26b18",
+		"name": "NLW2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3333/classes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Gabriel Jony\",\r\n    \"avatar\": \"https://avatars1.githubusercontent.com/u/8727895?s=460&u=9e3866087ee42d3d4aa9a789225f028c4926e7e1&v=4\",\r\n    \"whatsapp\": \"7188888888\",\r\n    \"bio\": \"Desenvolvedor Front-End\",\r\n    \"subject\": \"Matemática\",\r\n    \"cost\": 80,\r\n    \"schedule\": [\r\n        { \"week_day\": 2, \"from\": \"9:00\", \"to\": \"15:00\"},\r\n        { \"week_day\": 4, \"from\": \"13:00\", \"to\": \"18:00\"},\r\n        { \"week_day\": 5, \"from\": \"13:00\", \"to\": \"18:00\"}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/classes",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"classes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3333/classes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ben Silva\",\r\n    \"avatar\": \"https://avatars1.githubusercontent.com/u/8727895?s=460&u=9e3866087ee42d3d4aa9a789225f028c4926e7e1&v=4\",\r\n    \"whatsapp\": \"7199999999\",\r\n    \"bio\": \"Desenvolvedor Back-End\",\r\n    \"subject\": \"Quimica\",\r\n    \"cost\": 80,\r\n    \"schedule\": [\r\n        { \"week_day\": 1, \"from\": \"8:00\", \"to\": \"18:00\"},\r\n        { \"week_day\": 3, \"from\": \"8:00\", \"to\": \"18:00\"},\r\n        { \"week_day\": 4, \"from\": \"8:00\", \"to\": \"18:00\"}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/classes",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"classes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3333/classes?week_day=1&subject=Matemática&time=9:00",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Pedro Barbosa\",\r\n    \"avatar\": \"https://avatars1.githubusercontent.com/u/8727895?s=460&u=9e3866087ee42d3d4aa9a789225f028c4926e7e1&v=4\",\r\n    \"whatsapp\": \"7188888888\",\r\n    \"bio\": \"Desenvolvedor Back-End\",\r\n    \"subject\": \"Quimica\",\r\n    \"cost\": 88,\r\n    \"schedule\": [\r\n        { \"week_day\": 2, \"from\": \"9:00\", \"to\": \"15:00\"},\r\n        { \"week_day\": 4, \"from\": \"13:00\", \"to\": \"18:00\"},\r\n        { \"week_day\": 5, \"from\": \"13:00\", \"to\": \"18:00\"}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/classes?week_day=1&subject=Matemática&time=9:00",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"classes"
+					],
+					"query": [
+						{
+							"key": "week_day",
+							"value": "1"
+						},
+						{
+							"key": "subject",
+							"value": "Matemática"
+						},
+						{
+							"key": "time",
+							"value": "9:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3333/classes?week_day=1&subject=Matemática&time=9:00",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Pedro Barbosa\",\r\n    \"avatar\": \"https://avatars1.githubusercontent.com/u/8727895?s=460&u=9e3866087ee42d3d4aa9a789225f028c4926e7e1&v=4\",\r\n    \"whatsapp\": \"7188888888\",\r\n    \"bio\": \"Desenvolvedor Back-End\",\r\n    \"subject\": \"Quimica\",\r\n    \"cost\": 88,\r\n    \"schedule\": [\r\n        { \"week_day\": 2, \"from\": \"9:00\", \"to\": \"15:00\"},\r\n        { \"week_day\": 4, \"from\": \"13:00\", \"to\": \"18:00\"},\r\n        { \"week_day\": 5, \"from\": \"13:00\", \"to\": \"18:00\"}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/classes?week_day=3&subject=Quimica&time=8:00",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"classes"
+					],
+					"query": [
+						{
+							"key": "week_day",
+							"value": "3"
+						},
+						{
+							"key": "subject",
+							"value": "Quimica"
+						},
+						{
+							"key": "time",
+							"value": "8:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3333/classes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/connections",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"connections"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3333/classes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/connections",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"connections"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
