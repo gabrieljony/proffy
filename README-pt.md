@@ -94,15 +94,15 @@ Criar um novo projeto, selecionar o template typescript
 
 ## 🔗 Links úteis
 
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-[React documentation](https://reactjs.org/)
-[React Navigation](https://reactnavigation.org/docs/getting-started)
-[TypeScript](https://www.typescriptlang.org/)
-[Expo](https://docs.expo.io/)
-[Expo Google Fonts is released](https://dev.to/expo/expo-google-fonts-is-released-4g58)
-[Axios](https://github.com/axios/axios)
-[KnexJs](http://knexjs.org/)
-[React Select](https://react-select.com/home)
-[Whatsapp Chats](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/)
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)<br/>
+[React documentation](https://reactjs.org/)<br/>
+[React Navigation](https://reactnavigation.org/docs/getting-started)<br/>
+[TypeScript](https://www.typescriptlang.org/)<br/>
+[Expo](https://docs.expo.io/)<br/>
+[Expo Google Fonts is released](https://dev.to/expo/expo-google-fonts-is-released-4g58)<br/>
+[Axios](https://github.com/axios/axios)<br/>
+[KnexJs](http://knexjs.org/)<br/>
+[React Select](https://react-select.com/home)<br/>
+[Whatsapp Chats](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/)<br/>
 [API de Fotos](hhttps://randomuser.me/photos)
 
