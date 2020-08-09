@@ -104,4 +104,4 @@ Criar um novo projeto, selecionar o template typescript
 [KnexJs](http://knexjs.org/)<br/>
 [React Select](https://react-select.com/home)<br/>
 [Whatsapp Chats](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/)<br/>
-[API de Fotos](hhttps://randomuser.me/photos)
+[API de Fotos](https://randomuser.me/photos)

@@ -2,7 +2,7 @@
    <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
 
-🚀 Projeto feito para conectar professores e estudantes. #Rocketseat  NLW #2 Ago/2020
+🚀 Projeto feito para conectar professores e estudantes. #Rocketseat NLW #2 Ago/2020
 
 <p align="center">
     <a href="README.md">Inglês</a>
@@ -104,5 +104,4 @@ Criar um novo projeto, selecionar o template typescript
 [KnexJs](http://knexjs.org/)<br/>
 [React Select](https://react-select.com/home)<br/>
 [Whatsapp Chats](https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/)<br/>
-[API de Fotos](hhttps://randomuser.me/photos)
-
+[API de Fotos](https://randomuser.me/photos)
