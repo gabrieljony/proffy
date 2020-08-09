@@ -3,40 +3,56 @@ import React from "react";
 import "./styles.css";
 
 import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
+import api from "../../services/api";
 
-function TeacherItem() {
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: number;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FunctionComponent<TeacherItemProps> = ({
+  teacher,
+}) => {
+  function createNewConnection() {
+    api.post("connections", {
+      user_id: teacher.id,
+    });
+  }
   return (
     <article className="teacher-item">
       <header>
-        <img
-          src="https://avatars1.githubusercontent.com/u/8727895?s=460&u=9e3866087ee42d3d4aa9a789225f028c4926e7e1&v=4"
-          alt="Gabriel Jony"
-        />
+        <img src={teacher.avatar} alt={teacher.name} />
         <div>
-          <strong>Gabriel Jony</strong>
-          <span>Matemática</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
-      <p>
-        Aulas de Matemática bem estruturadas e expositiva.
-        <br /> <br />
-        Estude para o ENEM e Vestibulares no Melhor Cursinho com o Melhor Preço.
-        Pague em até 12x. ENEM com a melhor preparação. Parcelas por menos de R$
-        15 reais.
-      </p>
-
+      <p>{teacher.bio}</p>
       <footer>
         <p>
-          Preço/hora
-          <strong>R$ 15,00</strong>
+          Price/Hour
+          <strong>R$ {teacher.cost}</strong>
         </p>
-        <button type="button">
+        <a
+          target="_blank"
+          onClick={createNewConnection}
+          href={`https://wa.me/${teacher.whatsapp}?text=Hello%20There`}
+        >
           <img src={whatsappIcon} alt="Whatsapp" />
-          Entrar em Contato
-        </button>
+          Contact
+        </a>
       </footer>
     </article>
   );
-}
+};
 
 export default TeacherItem;
