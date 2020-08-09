@@ -2,7 +2,7 @@
    <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
 
-> :rocket: Projeto feito para conectar professores e estudantes, feito na Next Level Week #2 @Rocketseat
+🚀 Projeto feito para conectar professores e estudantes.
 
 <p align="center">
     <a href="README.md">Inglês</a>
@@ -11,7 +11,7 @@
  </p>
 
  <div align="center">
-  <sub>The NLW #2 project. Built with ❤︎ by
+  <sub>The NLW #2 project. Built with 💙 by
     <a href="https://github.com/gabrieljony">Gabriel Jony</a> and
     <a href="https://github.com/gabrieljony/Proffy/graphs/contributors">
       contributors
@@ -31,7 +31,7 @@
 - [Licencia](#licencia)
 - [Links úteis](#link)
 
-## :web: Site Web
+## 💻 Site Web
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
    <img src="./.github/web-landing.png" width="300px">
@@ -39,9 +39,9 @@
    <img src="./.github/web-form.png" width="300px">
 </div>
 
-## :mobile: Site Mobile
+## 📱 Site Mobile
 
-## :stack: Tecnologias
+## 📚 Tecnologias
 
 Projeto foi feito utilizando as seguintes tecnologias:
 
@@ -50,11 +50,7 @@ Projeto foi feito utilizando as seguintes tecnologias:
 - [Expo](https://expo.io/)
 - [Express](https://expressjs.com/)
 
-## Create project web
-
-`yarn create react-app web --template typescript`
-
-## :functions: Funcionalidades (casos do uso)
+## 💙 Funcionalidades (casos do uso)
 
 ### Conexões
 
@@ -67,7 +63,7 @@ Projeto foi feito utilizando as seguintes tecnologias:
 - Rota para listar aulas;
   --Filtrar por matéria, dia da semana e horário
 
-## :run: Como rodar
+## 🏃‍♂️ Como rodar
 
 ### Create project web
 
@@ -116,7 +112,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### :link: Links úteis
+### 🔗 Links úteis
 
 https://react-select.com/home
 https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/
